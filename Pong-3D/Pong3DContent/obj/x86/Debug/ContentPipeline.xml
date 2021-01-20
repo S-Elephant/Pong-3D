@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\doggy.fbx</Source>
+      <Name>Models\doggy</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Models\doggy.xnb</Output>
+      <Time>2011-08-12T20:34:32.468625+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\doggy_0.xml</Key>
+        <Value>2011-08-12T20:34:44.156125+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\doggy.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\doggy_0.xml</Output>
+      <Time>2011-08-12T20:34:32.468625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\borders.png</Source>
+      <Name>Textures\borders</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Textures\borders.xnb</Output>
+      <Time>2011-08-12T21:14:11.281125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\borders.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Textures\borders_0.xnb</Output>
+      <Time>2011-08-12T21:14:11.281125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball.fbx</Source>
+      <Name>Models\Ball</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Models\Ball.xnb</Output>
+      <Time>2011-08-12T21:24:01.5155+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Ball_0.xml</Key>
+        <Value>2011-08-12T21:25:21.812375+02:00</Value>
+      </Dependency>
+      <Request>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Textures\ball_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Textures\ball.png</Source>
+      <Name>Textures\ball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Textures\ball.xnb</Output>
+      <Time>2011-08-12T21:23:05.218625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ball.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Ball_0.xml</Output>
+      <Time>2011-08-12T21:24:01.5155+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\ball.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Textures\ball_0.xnb</Output>
+      <Time>2011-08-12T21:23:05.218625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Cube1x1x1.fbx</Source>
+      <Name>Models\Cube1x1x1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Models\Cube1x1x1.xnb</Output>
+      <Time>2011-08-12T21:39:57.60925+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Cube1x1x1_0.xml</Key>
+        <Value>2011-08-12T21:40:22.187375+02:00</Value>
+      </Dependency>
+      <Request>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Textures\borders_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Cube1x1x1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Cube1x1x1_0.xml</Output>
+      <Time>2011-08-12T21:39:57.60925+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Gui.spritefont</Source>
+      <Name>Fonts\Gui</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Fonts\Gui.xnb</Output>
+      <Time>2011-08-13T19:53:03.6085+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Disk.fbx</Source>
+      <Name>Models\Disk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Models\Disk.xnb</Output>
+      <Time>2011-08-13T20:56:21.842875+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Disk_0.xml</Key>
+        <Value>2011-08-13T20:56:23.88975+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Disk.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Disk_0.xml</Output>
+      <Time>2011-08-13T20:56:21.842875+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Paddle.fbx</Source>
+      <Name>Models\Paddle</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Models\Paddle.xnb</Output>
+      <Time>2011-08-13T21:04:58.95225+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Paddle_0.xml</Key>
+        <Value>2011-08-13T21:05:01.217875+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Paddle.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Paddle_0.xml</Output>
+      <Time>2011-08-13T21:04:58.95225+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\stars01.jpg</Source>
+      <Name>Textures\stars01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Textures\stars01.xnb</Output>
+      <Time>2011-08-13T21:18:10.436625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\DiffuseLight.fx</Source>
+      <Name>Effects\DiffuseLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Effects\DiffuseLight.xnb</Output>
+      <Time>2011-08-14T13:48:56.468625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\AmbientDiffuseLight.fx</Source>
+      <Name>Effects\AmbientDiffuseLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Effects\AmbientDiffuseLight.xnb</Output>
+      <Time>2011-08-14T14:04:08.343625+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\AmbientLight.fx</Source>
+      <Name>Effects\AmbientLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\Effects\AmbientLight.xnb</Output>
+      <Time>2011-08-14T14:09:52.468625+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3DContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3DContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Pong3D\Pong3D\Pong3D\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-07-13T18:01:29.936875+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

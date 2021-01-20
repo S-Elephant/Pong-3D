@@ -1,0 +1,14 @@
+Content\Models\doggy.xnb
+Content\Textures\borders.xnb
+Content\Textures\borders_0.xnb
+Content\Models\Ball.xnb
+Content\Textures\ball.xnb
+Content\Textures\ball_0.xnb
+Content\Models\Cube1x1x1.xnb
+Content\Fonts\Gui.xnb
+Content\Models\Disk.xnb
+Content\Models\Paddle.xnb
+Content\Textures\stars01.xnb
+Content\Effects\DiffuseLight.xnb
+Content\Effects\AmbientDiffuseLight.xnb
+Content\Effects\AmbientLight.xnb
